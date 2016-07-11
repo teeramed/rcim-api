@@ -2,7 +2,7 @@ var fs        = require("fs");
 var path      = require("path");
 var Sequelize = require("sequelize");
 var env       = process.env.NODE_ENV || "development";
-var config    = require("./../config/sequelize");
+var config    = require("../config/sequelize");
 var sequelize = new Sequelize(config.mysql,{
                                         query:{
                                           raw:true
