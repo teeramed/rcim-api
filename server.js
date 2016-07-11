@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-process.env.NODE_ENV = process.env.NODE_ENV || "development";
+process.env.NODE_ENV = "development";
 console.log(process.env.NODE_ENV);
 var debug = require('debug')('rcim-back-end');
 var express = require("./config/express");
