@@ -8,8 +8,6 @@ var models = require("./models");
 
 var app = express();
 
-console.log("running http://localhost:3000");
-
 app.set('port', process.env.PORT || 3000);
 
 models.sequelize.sync().then(function () {
