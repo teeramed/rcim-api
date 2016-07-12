@@ -15,3 +15,4 @@ models.sequelize.sync().then(function () {
     debug('Express server listening on port ' + server.address().port);
   });
 });
+ 
